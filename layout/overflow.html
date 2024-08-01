@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Overflow</title>
+
+    <style>
+        .container{
+            border: 2px solid black;
+            padding: 16px;
+            width: 300px;
+            margin-bottom: 16px;
+            height: 300px;
+            background-color: rgba(255, 0, 0, 0.5);
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .fit-content .item{
+            width: fit-content;
+        }
+
+        .min-content .item{
+            width: min-content;
+        }
+
+        .max-content .item{
+            width: max-content;
+        }
+
+        .overflow-hidden{
+            overflow: hidden;
+        }
+
+        .overflow-scroll{
+            overflow: scroll;
+
+        }
+
+        .overflow-auto{
+            overflow: auto;
+        }
+
+        .overflow-x-hidden{
+            overflow-x: hidden;
+        }
+
+        .overflow-y-hidden{
+            overflow-y: hidden;
+        }
+
+        .overflow-visible{
+            overflow: visible;
+        }
+    </style>
+</head>
+<body>
+    <div class="container fit-content overflow-hidden">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, culpa.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odit iusto 
+            perspiciatis libero culpa doloribus laborum. Quisquam ad ea debitis, assumenda saepe numquam 
+            atque rem.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sed asperiores 
+            magnam! Dolor, quisquam cum exercitationem a error laudantium incidunt fugit et hic. Aspernatur 
+            ab quae iure consequatur est consequuntur sit, veniam, illum obcaecati itaque eaque dolores 
+            corrupti omnis maxime recusandae? Ut dolore magni qui alias provident aliquid distinctio nulla 
+            eos quia in! Incidunt neque rerum quod aperiam optio dolorem officia! Qui culpa quam fuga 
+            repellendus, ut minima voluptatem architecto modi iste illum quibusdam recusandae!</div>
+    </div>
+
+    <div class="container min-content overflow-auto">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, culpa.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odit iusto 
+            perspiciatis libero culpa doloribus laborum. Quisquam ad ea debitis, assumenda saepe numquam 
+            atque rem.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sed asperiores 
+            magnam! Dolor, quisquam cum exercitationem a error laudantium incidunt fugit et hic. Aspernatur 
+            ab quae iure consequatur est consequuntur sit, veniam, illum obcaecati itaque eaque dolores 
+            corrupti omnis maxime recusandae? Ut dolore magni qui alias provident aliquid distinctio nulla 
+            eos quia in! Incidunt neque rerum quod aperiam optio dolorem officia! Qui culpa quam fuga 
+            repellendus, ut minima voluptatem architecto modi iste illum quibusdam recusandae!</div>
+    </div>
+
+    <div class="container max-content overflow-scroll">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, culpa.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odit iusto 
+            perspiciatis libero culpa doloribus laborum. Quisquam ad ea debitis, assumenda saepe numquam 
+            atque rem.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sed asperiores 
+            magnam! Dolor, quisquam cum exercitationem a error laudantium incidunt fugit et hic. Aspernatur 
+            ab quae iure consequatur est consequuntur sit, veniam, illum obcaecati itaque eaque dolores 
+            corrupti omnis maxime recusandae? Ut dolore magni qui alias provident aliquid distinctio nulla 
+            eos quia in! Incidunt neque rerum quod aperiam optio dolorem officia! Qui culpa quam fuga 
+            repellendus, ut minima voluptatem architecto modi iste illum quibusdam recusandae!</div>
+    </div>
+</body>
+</html>
