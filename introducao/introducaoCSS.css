@@ -1,0 +1,46 @@
+body{
+    background-color: beige;
+}
+
+h1{
+    color: green;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 54px;
+}
+
+h2{
+    color: crimson;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    font-style: italic;
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+h3{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
+    background-color: burlywood;
+}
+
+p{
+    /* COMENTÁRIO */
+    text-indent: 28px;
+    font-size: 28px;
+    text-align: left;
+    color: #947e00;
+    font-variant: small-caps;
+}
+
+a{
+    text-decoration: none;
+    font-variant: normal;
+}
+
+.destaque{
+    color: blueviolet;
+    font-weight: bold;
+}

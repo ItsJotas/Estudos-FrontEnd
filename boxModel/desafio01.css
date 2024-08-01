@@ -1,0 +1,100 @@
+body{
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #edfbff;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    background-color: #add8e6;
+    color: #013b3b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+h2{
+    font-size: 30px;
+    background-color: #adcfcf;
+    color: #013b3b;
+    padding: 5px;
+    padding-left: 10px;
+    border-bottom: 3px solid #4e6d6d;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+h3{
+    font-size: 20px;
+    color: #4e6d6d;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h4{
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+li{
+    font-size: 17px;
+    margin-top: 3px;
+}
+
+p{
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.linkExterno{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.linkExterno:hover{
+    text-decoration: underline;
+}
+
+.linkExterno:link{
+    color: #000052; 
+}
+
+
+.nacionalidade{
+    text-align: center;
+    background-color: #85bacc;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.ultimaLinhaH2{
+    margin-bottom: 30px;
+}
+
+.menu{
+    text-align: right;
+}
+
+.menu li{
+    list-style: none;
+    background-color: #ffffff;
+    margin: 10px;
+    display: inline-block;
+}
+
+.menu a{
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    background-color: #ececec;
+}
