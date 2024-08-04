@@ -1,0 +1,101 @@
+body{
+    background-color: #181818;
+    width: 30%;
+    margin: auto;
+}
+
+.cabecalhoContatos h1{
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.lista{
+    height: 550px; 
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
+}
+
+.lista article{
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.lista .fotoPerfil{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: left center;
+}
+
+.lista a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display: block;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: center;
+}
+
+.lista a:hover{
+    background-color: #c7c7c7;
+}
+
+.lista .informacoes{
+    margin-left: 20px;
+    height: 70px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lista h2{
+    margin: 0;
+    color: rgb(44, 44, 44);
+    margin-bottom: 5px;
+}
+
+.lista p{
+    color: #7a7a7a;
+    margin: 0px;
+}
+
+.lista .fotoGoku{
+    background-image: url(imagens/goku.webp);
+}
+
+.lista .fotoGohan{
+    background-image: url(imagens/gohan.png);
+}
+
+.lista .fotoChiChi{
+    background-image: url(imagens/chichi.webp);
+}
+
+.lista .fotoGoten{
+    background-image: url(imagens/goten.jpg);
+}
+
+.lista .fotoVidel{
+    background-image: url(imagens/videl.jpg);
+}
+
+.lista .fotoKuririn{
+    background-image: url(imagens/kuririn.jpg);
+}
+
+.lista .fotoAndroid18{
+    background-image: url(imagens/android18.avif);
+}
+
+.lista .fotoBulma{
+    background-image: url(imagens/bulma.jpg);
+    background-position: center center;
+}
