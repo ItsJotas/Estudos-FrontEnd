@@ -13,6 +13,7 @@ body{
 }
 
 .lista{
+    min-width: 400px;
     height: 550px; 
     border-radius: 6px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 0, 0, 0.5);
@@ -24,8 +25,8 @@ body{
 }
 
 .lista .fotoPerfil{
-    width: 70px;
-    height: 70px;
+    min-width: 70px;
+    min-height: 70px;
     border-radius: 50%;
     background-size: cover;
     background-position: left center;
@@ -77,8 +78,7 @@ body{
 }
 
 .lista img{
-    height: 0;
-    width: 0;
+    opacity: 0;
 }
 
 .lista a:hover img{
@@ -86,6 +86,7 @@ body{
     width: 12px;
     margin: 10px;
     margin-top: 20px;
+    opacity: 0.3;
 }
 
 .lista .fotoGoku{
