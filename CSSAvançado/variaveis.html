@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Função calc()</title>
+    <meta charset="UTF-8">
+    
+    <style>
+        :root{
+            --header-heigth: 15rem;
+            --main-color: yellow;
+        }
+
+        html{
+            font-size: 62.5%;
+        }
+
+        header{
+            width: 100%;
+            background-color: var(--main-color);
+            height: var(--header-heigth);
+            font-size: 2rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        main{
+            min-height: calc(100vh - var(--header-heigth) - 2rem);
+            background-color: #ccc;
+            font-size: 2rem;
+            margin-top: var(--header-heigth);
+        }
+
+        p{
+            margin: calc(var(--header-heigth) * 10);
+        }
+
+        footer{
+            height: 10rem;
+            font-size: 2rem;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>header</head>
+    <main>
+        <p>main</p>
+    </main>
+    <footer>footer</footer>
+</body>
+</html>
