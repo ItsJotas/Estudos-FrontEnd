@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Box Shadow</title>
+
+    <style>
+        .div1{
+            background-color: orange;
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+
+            border-radius: 50px 20px 100px 0;
+
+            box-shadow: 10px -10px 0 5px black, 5px 20px 10px red,
+            -10px 15px 15px blue;
+        }
+
+        .div2{
+            background-color: orange;
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+
+            border-radius: 50px / 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+</body>
+</html>
