@@ -147,3 +147,19 @@ nav a{
     border-top: transparent;
     overflow: hidden;
 }
+
+.escola{
+    display: flex;
+    gap: 6rem;
+    padding-top: 6rem;
+}
+
+.escola_title{
+    font-size: 3.2rem;
+    margin-top: 2rem;
+}
+
+.escola p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
